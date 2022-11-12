@@ -1,3 +1,2 @@
-# DSA
-DSA Algorithms
-https://leadcoding.in/dsa-sheet/
+# DSA Algorithms
+> [https://leadcoding.in/dsa-sheet/](https://leadcoding.in/dsa-sheet/)
