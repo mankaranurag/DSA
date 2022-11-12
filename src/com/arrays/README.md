@@ -12,3 +12,4 @@
 8. [Majority Element](https://leetcode.com/problems/majority-element/)
 9. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 10. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
+11. [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
