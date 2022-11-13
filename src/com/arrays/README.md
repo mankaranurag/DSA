@@ -14,3 +14,7 @@
 10. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 11. [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 12. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+
+
+### Medium
+13. [3Sum](https://leetcode.com/problems/3sum/)

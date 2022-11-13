@@ -1,8 +1,5 @@
 package com.arrays.q8majorityelement;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author Anurag <br />
  *         <link>https://leetcode.com/problems/majority-element/</link>

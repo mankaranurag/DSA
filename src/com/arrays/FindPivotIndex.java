@@ -1,7 +1,5 @@
 package com.arrays;
 
-import java.util.Arrays;
-
 /**
  * @author Anurag <br />
  *         <link>https://leetcode.com/problems/find-pivot-index/</link> LeetCode
