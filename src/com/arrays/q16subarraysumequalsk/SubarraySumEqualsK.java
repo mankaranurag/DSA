@@ -1,8 +1,7 @@
-package com.arrays;
+package com.arrays.q16subarraysumequalsk;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author Anurag <br />
