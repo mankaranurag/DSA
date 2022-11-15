@@ -1,4 +1,4 @@
-package com.recursion.q7combinations;
+package com.recursion;
 
 import java.util.ArrayList;
 import java.util.Collections;
