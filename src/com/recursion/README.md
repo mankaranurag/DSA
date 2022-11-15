@@ -8,3 +8,5 @@
 4. [Permutations](https://leetcode.com/problems/permutations/)
 5. [Permutations II](https://leetcode.com/problems/permutations-ii/)
 6. [Subsets II](https://leetcode.com/problems/subsets-ii/)
+7. [Combinations](https://leetcode.com/problems/combinations/)
+8. [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
