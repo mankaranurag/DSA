@@ -3,6 +3,7 @@ package com.arrays;
 /**
  * @author Anurag <br />
  *         <link>https://leetcode.com/problems/next-permutation</link> LeetCode
+ *			https://leetcode.com/problems/next-permutation/discuss/13994/Readable-code-without-confusing-ij-and-with-explanation
  */
 public class NextPermutation {
 

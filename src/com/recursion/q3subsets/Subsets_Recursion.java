@@ -1,4 +1,4 @@
-package com.recursion;
+package com.recursion.q3subsets;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -8,23 +8,22 @@ import java.util.List;
  * @author Anurag <br />
  *         <link>https://leetcode.com/problems/subsets/</link> LeetCode
  */
-public class Subsets {
-	public List<List<Integer>> subsets(int[] nums) {
+public class Subsets_Recursion {
+    public List<List<Integer>> subsets(int[] nums) {
 
 		List<List<Integer>> output = new ArrayList<>();
-		output.add(Collections.emptyList());
-		subsets(nums, output, 0, Collections.emptyList());
+		subsets(nums, output, 0, new ArrayList<>());
 		return output;
 
 	}
 
 	private void subsets(int[] nums,List<List<Integer>> output, int start, List<Integer> list){
+        output.add(new ArrayList<>(list));
         if(start == nums.length) return;
-        for(int i =0 ;i<nums.length;i++) {
-        	List<Integer> ls = new ArrayList<>(list);
-        	ls.add(nums[i]);
-        	output.add(ls);
-        	subsets(nums,output, i, ls);
+        for(int i =start ;i<nums.length;i++) {
+        	list.add(nums[i]);
+        	subsets(nums,output, i+1, list);
+			list.remove(list.size() - 1);
         }
         
     }
