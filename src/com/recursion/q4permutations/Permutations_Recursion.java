@@ -1,4 +1,4 @@
-package com.recursion.q3subsets;
+package com.recursion.q4permutations;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,8 +1,10 @@
-package com.recursion.q3subsets;
+package com.recursion;
 
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * @author Anurag <br />
@@ -17,7 +19,7 @@ public class SubsetsII {
     }
     
     private void subsets(int []nums, int start, List<List<Integer>> res, List<Integer> list){
-        res.add(new ArrayList(list));
+        res.add(new ArrayList<>(list));
         if(start == nums.length) return;
         Set<Integer> set = new HashSet<>();
         for(int i=start;i<nums.length;i++){

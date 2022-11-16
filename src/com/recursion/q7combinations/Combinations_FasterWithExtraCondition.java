@@ -8,7 +8,7 @@ import java.util.List;
  * @author Anurag <br />
  *         <link>https://leetcode.com/problems/combinations/</link> LeetCode
  */
-public class Combinations {
+public class Combinations_FasterWithExtraCondition {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> combinations = new ArrayList<>();
         combinations(n, k,1, combinations, new ArrayList<>());

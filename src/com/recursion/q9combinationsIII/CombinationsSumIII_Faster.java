@@ -8,7 +8,7 @@ import java.util.List;
  * @author Anurag <br />
  *         <link>https://leetcode.com/problems/combination-sum-iii/</link> LeetCode
  */
-public class CombinationsSumIII {
+public class CombinationsSumIII_Faster {
     // array is 1 To 9
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> combinations = new ArrayList<>();
