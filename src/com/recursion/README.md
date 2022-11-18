@@ -15,3 +15,4 @@
 11. [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
 12. [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)
 13. [Flood Fill](https://leetcode.com/problems/flood-fill)
+14. [Word Search](https://leetcode.com/problems/word-search/)
