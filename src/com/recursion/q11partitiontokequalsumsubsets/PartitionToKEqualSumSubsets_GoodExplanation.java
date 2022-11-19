@@ -8,17 +8,20 @@ package com.recursion.q11partitiontokequalsumsubsets;
 public class PartitionToKEqualSumSubsets_GoodExplanation {
 	public boolean canPartitionKSubsets(int[] nums, int k) {
 		int sum = 0;
-		for( int num: nums) sum+=num;
-		
+		for (int num : nums)
+			sum += num;
+
 		// if sum not divisible by k
-		if(sum%k != 0) return false;
-		
-		boolean []alreadyPicked = new boolean[nums.length];
-		int reqSum = sum/k;
+		if (sum % k != 0)
+			return false;
+
+		boolean[] alreadyPicked = new boolean[nums.length];
+		int reqSum = sum / k;
 		return canPartitionKSubsets(0, 1, 0, reqSum, k, nums, alreadyPicked);
 	}
 
-	// for 1 bucket go through each element in array asking if they want to be in this bucket or not
+	// for 1 bucket go through each element in array asking if they want to be in
+	// this bucket or not
 	private boolean canPartitionKSubsets(int i, int bucketNum, int bucketSum, int reqSum, int k, int[] nums,
 			boolean[] alreadyPicked) {
 		if (bucketNum > k) {
