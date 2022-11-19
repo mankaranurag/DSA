@@ -21,7 +21,8 @@ public class RatInAMaze {
 		if (i == n - 1 && j == n - 1) {
 			// path found
 			// add to arrayList
-			res.add(path);
+			if (arr[i][j] == 1)
+				res.add(path);
 			return;
 		}
 
