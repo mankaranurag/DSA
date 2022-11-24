@@ -25,3 +25,4 @@
 18. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 19. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 20. [Rotate Image](https://leetcode.com/problems/rotate-image/)
+21. [Word Search](https://leetcode.com/problems/word-search) **Solved in Recursion
