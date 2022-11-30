@@ -20,7 +20,7 @@ public class ThreeSum_BruteForce {
 				for (int k = j + 1; k < nums.length; k++) {
 					if ((nums[i] + nums[j] + nums[k]) == 0) {
 						String mapKey = nums[i] + "," + nums[j] + "," + nums[k];
-                        System.out.println(mapKey);
+						System.out.println(mapKey);
 						map.put(mapKey, Arrays.asList(nums[i], nums[j], nums[k]));
 					}
 					if ((nums[i] + nums[j] + nums[k]) > 0)

@@ -2,7 +2,8 @@ package com.arrays;
 
 /**
  * @author Anurag <br />
- *         <link>https://leetcode.com/problems/running-sum-of-1d-array/</link> LeetCode
+ *         <link>https://leetcode.com/problems/running-sum-of-1d-array/</link>
+ *         LeetCode
  */
 public class RunningSumOf1dArray {
 	public int[] runningSum(int[] nums) {
