@@ -1,4 +1,8 @@
-package com.arrays;
+package com.arrays.q24pairofsongs;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author Anurag <br />
@@ -13,18 +17,18 @@ public class PairOfSongsDivisibleBy60 {
         }
         Arrays.sort(time);
         int count = 0;
-        for(int i=0;i<time.length;i++){
-            int target = 60-time[i];
-            if(target == 60) target = 0;
-            if(target < time[i]) break;
-            if(map.containsKey(target)){
-                if(target == time[i]) {
-                    count += (map.getOrDefault(time[i],0) -1);
-                }else if(target > time[i]){
-                    count += map.getOrDefault(target,0);
+        for (int j : time) {
+            int target = 60 - j;
+            if (target == 60) target = 0;
+            if (target < j) break;
+            if (map.containsKey(target)) {
+                if (target == j) {
+                    count += (map.getOrDefault(j, 0) - 1);
+                } else {
+                    count += map.getOrDefault(target, 0);
                 }
             }
-            map.put(time[i], map.getOrDefault(time[i],0) -1);
+            map.put(j, map.getOrDefault(j, 0) - 1);
         }
         return count;
     }
