@@ -4,33 +4,33 @@ import java.util.Arrays;
 
 /**
  * @author Anurag <br />
- *         <link>https://leetcode.com/problems/3sum-closest/</link> LeetCode
+ * <link>https://leetcode.com/problems/3sum-closest/</link> LeetCode
  */
 public class ThreeSumClosest {
-	// two pointer method
-	public int threeSumClosest(int[] nums, int target) {
-		int closestSum = Integer.MAX_VALUE;
-		int length = nums.length;
-		Arrays.sort(nums);
-		for (int i = 0; i < length - 2; i++) {
-			int start = i + 1, end = length - 1;
-			while (start < end) {
-				int tempSum = nums[i] + nums[start] + nums[end];
-				if (tempSum == target)
-					return target;
-				else if (tempSum < target) {
-					if (Math.abs(target - tempSum) < Math.abs(target - closestSum))
-						closestSum = tempSum;
-					start++;
-				} else {
-					if (Math.abs(target - tempSum) < Math.abs(target - closestSum))
-						closestSum = tempSum;
-					end--;
-				}
-			}
-		}
-		return closestSum;
-	}
+    // two pointer method
+    public int threeSumClosest(int[] nums, int target) {
+        int closestSum = Integer.MAX_VALUE;
+        int length = nums.length;
+        Arrays.sort(nums);
+        for (int i = 0; i < length - 2; i++) {
+            int start = i + 1, end = length - 1;
+            while (start < end) {
+                int tempSum = nums[i] + nums[start] + nums[end];
+                if (tempSum == target)
+                    return target;
+                else if (tempSum < target) {
+                    if (Math.abs(target - tempSum) < Math.abs(target - closestSum))
+                        closestSum = tempSum;
+                    start++;
+                } else {
+                    if (Math.abs(target - tempSum) < Math.abs(target - closestSum))
+                        closestSum = tempSum;
+                    end--;
+                }
+            }
+        }
+        return closestSum;
+    }
 }
 //Test Cases
 //[-1,2,1,-4]

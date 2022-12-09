@@ -1,44 +1,40 @@
 package com.recursion;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @author Anurag <br />
- *         <link>https://leetcode.com/problems/combination-sum-ii/</link>
- *         LeetCode
+ * <link>https://leetcode.com/problems/combination-sum-ii/</link>
+ * LeetCode
  */
 public class CombinationsSumII {
-	public List<List<Integer>> combinationSum2(int[] candidates, int target) {
-		Arrays.sort(candidates);
-		List<List<Integer>> combinations = new ArrayList<>();
-		combinationSum2(candidates, target, 0, combinations, new ArrayList<>(), 0);
-		return combinations;
-	}
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        Arrays.sort(candidates);
+        List<List<Integer>> combinations = new ArrayList<>();
+        combinationSum2(candidates, target, 0, combinations, new ArrayList<>(), 0);
+        return combinations;
+    }
 
-	private void combinationSum2(int[] candidates, int target, int start, List<List<Integer>> combinations,
-			List<Integer> list, int sum) {
-		if (sum == target) {
-			combinations.add(new ArrayList<>(list));
-			return;
-		}
-		if (sum > target)
-			return;
-		if (list.size() >= candidates.length)
-			return;
+    private void combinationSum2(int[] candidates, int target, int start, List<List<Integer>> combinations,
+                                 List<Integer> list, int sum) {
+        if (sum == target) {
+            combinations.add(new ArrayList<>(list));
+            return;
+        }
+        if (sum > target)
+            return;
+        if (list.size() >= candidates.length)
+            return;
 
-		Set<Integer> set = new HashSet<>();
-		for (int i = start; i < candidates.length; i++) {
-			if (sum + candidates[i] > target)
-				return;
-			if (set.add(candidates[i])) {
-				list.add(candidates[i]);
-				combinationSum2(candidates, target, i + 1, combinations, list, sum + candidates[i]);
-				list.remove(list.size() - 1);
-			}
-		}
-	}
+        Set<Integer> set = new HashSet<>();
+        for (int i = start; i < candidates.length; i++) {
+            if (sum + candidates[i] > target)
+                return;
+            if (set.add(candidates[i])) {
+                list.add(candidates[i]);
+                combinationSum2(candidates, target, i + 1, combinations, list, sum + candidates[i]);
+                list.remove(list.size() - 1);
+            }
+        }
+    }
 }
