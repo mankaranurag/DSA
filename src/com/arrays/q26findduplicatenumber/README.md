@@ -1,0 +1,1 @@
+![https://leetcode.com/problems/find-the-duplicate-number/discuss/1892921/9-Approaches%3A-Count-Hash-In-place-Marked-Sort-Binary-Search-Bit-Mask-Fast-Slow-Pointers](find-the-duplicate-number-discuss-1892921-9-Approaches.png)

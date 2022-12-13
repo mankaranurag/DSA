@@ -29,4 +29,5 @@
 22. [3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 23. [Game Of Life](https://leetcode.com/problems/game-of-life/)
 24. [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60)
-25. [4sum](https://leetcode.com/problems/4sum/)
+25. [4sum](https://leetcode.com/problems/4sum/) **Check recursion code again
+26. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
