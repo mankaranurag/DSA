@@ -34,3 +34,4 @@
 27. [Combination Sum](https://leetcode.com/problems/combination-sum/)
 28. [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
 29. [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards)
+30. [Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts)
