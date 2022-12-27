@@ -37,3 +37,4 @@
 30. [Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts)
 31. [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
 32. [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+33. [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)
